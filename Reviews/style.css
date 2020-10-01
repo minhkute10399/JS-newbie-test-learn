@@ -1,0 +1,138 @@
+body {
+	font-family: "Roboto", sans-serif;
+	background: hsl(210, 36%, 96%);
+	color: hsl(209, 61%, 16%);
+	line-height: 1.5;
+  font-size: 0.875rem;
+}
+h4 {
+	letter-spacing: 0.25rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+.underline {
+	height: 0.25rem;
+  width: 5rem;
+  background: hsl(205, 78%, 60%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+#person-img {
+	
+	height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 20px;
+}
+.img-review {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+#author {
+  margin-bottom: 0.25rem;
+  display: flex;
+  justify-content: center;
+}
+.our-review {
+	display: flex;
+	justify-content: center;
+	
+}
+.our-review h1{
+	margin-bottom: 20px;
+}
+#job {
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+	margin: 0px;
+	color: hsl(205, 63%, 48%);
+}
+.review {
+	width: 70%;
+	margin: auto;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.review:hover {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+	transition: all 0.8s;
+}
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+.btn {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	margin-bottom: 10px;
+
+}
+.suprise {
+   padding: 5px 10px;
+   margin-bottom: 10px;
+}
+.left {
+	margin-right: 10px;
+    padding: 5px;
+}
+.right {
+	
+    padding: 5px;
+}
+.right:hover {
+	background: hsl(205, 63%, 48%);
+	color: #fff;
+	transition: all 0.3s;
+}
+.left:hover {
+	background: hsl(205, 63%, 48%);
+	color: #fff;
+	transition: all 0.3s;
+
+}
+.suprise:hover {
+	background: hsl(205, 63%, 48%);
+	color: #fff;
+	transition: all 0.3s;
+}
+#info {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	align-items: center;
+	margin:auto;
+}
